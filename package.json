@@ -1,0 +1,28 @@
+{
+    "name": "vscode-sugarml-syntax",
+    "displayName": "SugarML Syntax",
+    "description": "Syntax higlighting for SugarML, a simple parser for whitespace-significant html, intended for use with reshape.",
+    "version": "0.0.1",
+    "publisher": "drspatula",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sugarml",
+            "aliases": ["SugarML", "sugarml"],
+            "extensions": ["sgr"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sugarml",
+            "scopeName": "source.sugarml",
+            "path": "./syntaxes/sugarml.tmLanguage.json"
+        }]
+    },
+    "repository": "https://github.com/DrSpatula/vscode-sugarml-syntax",
+    "homepage": "https://github.com/DrSpatula/vscode-sugarml-syntax"
+}
