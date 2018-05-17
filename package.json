@@ -1,7 +1,7 @@
 {
     "name": "vscode-sugarml-syntax",
     "displayName": "SugarML Syntax",
-    "description": "Syntax higlighting for SugarML, a simple parser for whitespace-significant html, intended for use with reshape.",
+    "description": "Syntax highlighting for SugarML, a simple parser for whitespace-significant html, intended for use with reshape.",
     "version": "0.0.1",
     "publisher": "drspatula",
     "engines": {
